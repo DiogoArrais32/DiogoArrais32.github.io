@@ -1,0 +1,160 @@
+/*Limpando formatações padrão*/
+* {
+	margin: 0px;
+	padding: 0px;
+
+}
+
+body {
+	font-size: 1em;
+	font-family: Helvetica, sans-serif;
+	background: #F3F2EF;
+}
+
+/*
+						----------Formatações do Menu----------
+*/
+#area-menu a {
+	text-decoration: none;
+}
+
+#area-menu a:link, a:visited{
+	color: #FFF;
+	padding: 8px 12px;
+}
+
+#area-menu a:hover{
+	color: #F7B600;
+	background: #FFF;
+}
+
+
+/*
+						----------layout----------
+*/
+ 										/*PÁGINA INDEX*/
+ 										 				/*CABEÇALHO*/
+#area-cabecalho {
+	background: #F7B600; 
+	text-align: center;
+}
+
+#area-menu, #area-logo {
+	color: #29303b;
+	padding: 10px;
+}
+ 										 				/*AREA PRINCIPAL*/
+#area-principal {
+	width: 960px;
+	margin: 20px auto;
+}
+
+#area-conteudo {
+	width: 660px;
+	float: left;
+}
+
+.conteudo {
+	padding: 20px;
+	margin-bottom: 20px;
+	background: #FFF;
+	border-radius: 15px;
+	border: solid 1.5px #c4c4c0;
+}
+
+.conteudo img {
+	box-shadow: 5px 5px 15px black;
+	margin: 15px;
+}
+
+.conteudo a {
+	color: #F7B600;
+}
+ 										 				/*AREA LATERAL*/
+#area-lateral {
+	background: orange;
+	border-radius: 15px;
+	border: solid 1.5px #c4c4c0;
+	padding: 20px;
+	width: 240px;
+	float: right;
+}
+
+.conteudo-lateral {
+	padding: 15px;
+}
+
+.conteudo-lateral img {
+	width: 200px;
+	box-shadow: 5px 5px 15px black;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+ 										 				/*AREA RODAPÉ*/
+#rodape {
+	background: #CCC;
+	clear: both;
+	text-align: center;
+	padding: 15px;
+	font-size: 0.7em;
+}
+
+#rodape a{
+	text-decoration: none;
+}
+
+#area-icones-redes-sociais {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.icone-redes-sociais {
+	width: 30px;
+	padding-right: 20px;
+}
+										/*PÁGINA SOBRE*/
+#area-sobre {
+	padding: 20px;
+	margin-bottom: 20px;
+	background: #FFF;
+	border-radius: 15px;
+	border: solid 1.5px #c4c4c0;
+	text-align: center;
+}
+
+#area-sobre img {
+	width: 100px;
+	border-radius: 50%;
+}
+
+#area-sobre p {
+	text-align: left;
+	padding: 30px 40px;
+}
+										/*PÁGINA FALE CONOSCO*/
+#area-fale-conosco {
+	padding: 20px 50px;
+	margin-bottom: 20px;
+	background: #FFF;
+	border-radius: 15px;
+	border: solid 1.5px #c4c4c0;
+	text-align: center;
+}
+
+.formulario {
+	margin: 10px 0px;
+	
+}
+
+/*
+						----------Formatações em Geral----------
+*/
+
+h1 {
+	color: #29303b;
+	font-size: 2.5em;
+}
+
+.branco {
+	color: white;
+}
